@@ -1,9 +1,4 @@
-###########################################################################
-###                                                                     ###
-### Pokémon ETL Projetc - Extract, Transform and Load Data from PokeAPI ###
-### by Vianelle FEITAMA alias FEITA-Vi                                  ###
-###                                                                     ###
-###########################################################################
+# Pokémon ETL Projetc - Extract, Transform and Load Data from PokeAPI                              
 
 
 Un projet Python complet de type **ETL (Extract - Transform - Load)**, conçu pour collecter, transformer et sauvegarder des données depuis l’API officielle [PokeAPI](https://pokeapi.co/).
@@ -24,6 +19,7 @@ Un projet Python complet de type **ETL (Extract - Transform - Load)**, conçu po
 
 ## Structure du projet
 
+```
 ├── main.py # Script principal du pipeline ETL
 ├── requirements.txt # Dépendances
 ├── pokemons_details_and_abilities.json # Fichier JSON généré
@@ -33,21 +29,21 @@ Un projet Python complet de type **ETL (Extract - Transform - Load)**, conçu po
 │     ├── transform.py # Enrichissement des données 
 │     └── load.py # Export JSON + CSV
 └── README.md
-
+````
 
 ## Stack technique
 
-Langage: Python 3.13
-API: pokeAPI (https://pokeapi.co/)
-Requêtes HTTP: request
-Manipulation de données: pandas
-Format export: JSON, CSV
-Structure code: Architechture ETL(Extract/Transform/Load)
-Versionning: Git+Github
+- Langage: Python 3.13
+- API: pokeAPI (https://pokeapi.co/)
+- Requêtes HTTP: request
+- Manipulation de données: pandas
+- Format export: JSON, CSV
+- Structure code: Architechture ETL(Extract/Transform/Load)
+- Versionning: Git+Github
 
 
-Exemple de sortie JSON:
-
+## Exemple de sortie JSON:
+````
 {
         "pokemon_name": "diglett",
         "abilities": [
@@ -85,7 +81,7 @@ Exemple de sortie JSON:
     }
 
 
-Auteur: FEITA-Vi
+Auteur: FEITAMA Vianelle alias FEITA-Vi
 https://www.linkedin.com/in/feitamavianelle/
 
 
