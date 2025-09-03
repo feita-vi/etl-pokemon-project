@@ -1,0 +1,10 @@
+# === Environnement virtuel ===
+venv/
+
+# === Cache Python ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === VS Code settings ===
+.vscode/
